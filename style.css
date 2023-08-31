@@ -1,0 +1,80 @@
+body{
+    background-color: lightskyblue;
+    height: 100%;
+    width: 100%;
+    text-align: center;   
+}
+
+nav{
+    background-color: lightblue;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h1{
+    text-align: center;
+    color: purple;
+    font-size: 80px;
+
+}
+
+.titolo{
+    text-align: center;
+    color:black;
+    font-size: 40px;
+    display: inline-block;
+    margin-right: 9%;
+    margin-left: 9%;
+}
+
+main{
+    position: relative;
+    height: 100%;
+    width: 950px;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    padding-top: 50px;   
+}
+
+section{
+    padding25px;
+}
+
+.sconto-30{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: green;
+    border-radius: 30%;
+    font-size: 30px;
+}
+
+.item{
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+}
+
+.sconto-5{
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    background-color: red;
+    border-radius: 30%;
+    font-size: 30px;
+}
+
+.heart{
+    color: red;    
+    font-size: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;  
+    display: none;  
+}
+
+.item:hover .heart{ /*prendi il contenitore "item", quando ci passo sopra vai da suo figlio "heart"*/
+    display: block;
+}
